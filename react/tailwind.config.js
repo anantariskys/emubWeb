@@ -1,10 +1,28 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary :{
+          charcoalGray: "#202020",
+        skyBlue: "#D6DAF7",
+        tealBlue: "#007B8E",
+        paleSalmon: "#ECD7CD",
+        }
+        
+       
+      },
+      fontFamily: {
+        'helvetica-extraBold': ['Helvetica ExtraBold', 'serif'],
+        'helvetica-regular': ['Helvetica Regular', 'serif'],
+        
+      },
+    },
   },
   plugins: [],
 }
+
