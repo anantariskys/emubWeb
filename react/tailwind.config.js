@@ -12,6 +12,8 @@ export default {
         skyBlue: "#D6DAF7",
         tealBlue: "#007B8E",
         paleSalmon: "#ECD7CD",
+        navbarText: "#00094D",
+        white : "#f6f6f6"
         }
         
        
@@ -23,6 +25,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
